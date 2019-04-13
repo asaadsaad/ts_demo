@@ -1,0 +1,9 @@
+npm init --y
+npm i typescript –g
+npm i webpack webpack-cli --save-dev
+
+tsc -init : set the outDir: './dist/js'
+tsc 
+
+package.json: "build" : webpack ./dist/app.js -o ./dist/bundle.js --devtool source-map
+
